@@ -20,7 +20,7 @@ class Buyer {
      * 
      */
 
-    function __construct($first_name, $last_name, $age, $is_registered, $discount, $credit_card){
+    function __construct($first_name, $last_name, $age, $is_registered, $credit_card){
     $this->first_name = $first_name;
     $this->last_name = $last_name;
     $this->age = $age;

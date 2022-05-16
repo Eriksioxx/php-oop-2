@@ -27,13 +27,30 @@ $acquirente = new Buyer ('Erik', 'Schievenin', 32, true, $cartaDiCredito);
 <body>
     <h2>PHP-OOP-2</h2>
     <?php
-
+        echo ('<pre>');
         var_dump($carne);
+        echo ('</pre>');
+
+        echo ('<pre>');
         var_dump($cartaDiCredito);
+        echo ('</pre>');
+
+        echo ('<pre>');
         var_dump($acquirente);
+        echo ('</pre>');
+        
+        echo ('<pre>');
         echo ($acquirente->buyNewProduct($carne));
+        echo ('</pre>');
 
 
     ?>
 </body>
+
+<style>
+    pre {
+        font-weight: bold;
+        margin-left: 30px;
+    }
+</style>
 </html>
