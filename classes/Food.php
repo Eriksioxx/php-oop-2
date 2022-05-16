@@ -19,7 +19,7 @@ class Food extends Product {
 
         parent::__construct($name, $description, $price);
 
-        $this->ingrediants = $ingrediants;
+        $this->ingredient = $ingredient;
         $this->deadline = $deadline;
     }
 
