@@ -1,21 +1,12 @@
-<?php
-
-class CreditCard{
-    public $number;
-    public $expiration_date;
-    public $balance;
-
-    /*
-    * crea una carta di credito
-    * 
-    * @param float $number è il numero dell carta di credito
-    * @param int $expiration_date è la scadenza della carta di credito
-    * @param int $balance è il saldo corrente della carta di credito
-    *
-    */
-
-
-
-}
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
